@@ -1,12 +1,8 @@
 <mat-toolbar class="app-toolbar" color="primary" >
-  <button mat-icon-button>
-    <mat-icon>home</mat-icon>
-  </button>
   <span>User Details</span>  
-
   <span class="spacer"></span>
   <button mat-icon-button title="Logout" (click)="logout()" *ngIf="isUserLoggedIn | async">
-   <mat-icon>logout</mat-icon>
+    <mat-icon>logout</mat-icon>
  </button>
 
 </mat-toolbar>

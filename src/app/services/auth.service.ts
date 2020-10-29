@@ -22,7 +22,7 @@ export class AuthService {
       email: 'john.doe@fastmail.com',
       firstName: 'John',
       lastName: 'Doe',
-      image: '/assets/img/avatar.png',
+      image: './assets/img/avatar.png',
       name: 'John Doe',
     };
     return from([profile]).pipe(
